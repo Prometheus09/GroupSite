@@ -5,19 +5,43 @@ body{
 	background-size: cover;
 }
 
-.center{text-align: center;}
+.left {
+text-align: left;
+}
 
-.custom  li a:hover {
-    background-color: #FFA366;
-	border-width: 12px;
-	border-color: green;
-	
-	
+.center{
+text-align: center;
+}
+
+.custom li a:hover{
+background-color: #FFA366;
+
 }
 
 .custom li a{
 	font-size: 22px;
 }
+
+div.background {
+    background: url(background.jpg) ;
+    border: 2px solid black;
+	
+}
+
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 2px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
+
 
 #PageTitleText{
 	
