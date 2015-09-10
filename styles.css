@@ -1,11 +1,24 @@
-html{
+body{
 	background: url(background.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 }
-body{
-	background-color: yellow;
-}
 
 .center{text-align: center;}
+
+.custom  li a:hover {
+    background-color: #FFA366;
+	border-width: 12px;
+	border-color: green;
+	
+	
+}
+
+.custom li a{
+	font-size: 22px;
+}
+
+#PageTitleText{
+	
+}
