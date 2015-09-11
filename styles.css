@@ -22,7 +22,7 @@ background-color: #FFA366;
 	font-size: 22px;
 }
 
-div.background {
+ div.background {
     background: url(background.jpg) a ;
     border: 2px solid black;
 }
